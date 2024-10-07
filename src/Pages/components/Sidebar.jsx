@@ -10,7 +10,7 @@ import {
   Users,
 } from "lucide-react";
 
-import { animate, AnimatePresence, motion } from "framer-motion";
+import {  AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const SIDEBAR_ITEMS = [
