@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import OverviewPage from "./Pages/OverviewPage";
-import Sidebar from "./Pages/components/Sidebar";
+import Sidebar from "./components/Sidebar";
+import ProductsPage from "./Pages/ProductsPage"; 
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<OverviewPage />} />
-          <Route path="/products" element={<div>Products Page</div>} />
+          <Route path="/products" element={<ProductsPage />} />
 
           <Route path="*" element={<div>404</div>} />
         </Routes>
