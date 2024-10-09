@@ -3,6 +3,7 @@ import OverviewPage from "./Pages/OverviewPage";
 import Sidebar from "./components/Sidebar";
 import ProductsPage from "./Pages/ProductsPage";
 import UsersPage from "./Pages/UsersPage";
+import SalesPage from "./Pages/SalesPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<OverviewPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/users" element={<UsersPage />} />
+          <Route path="/sales" element={<SalesPage />} />
 
           <Route path="*" element={<div>404</div>} />
         </Routes>
