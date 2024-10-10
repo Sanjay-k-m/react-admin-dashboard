@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import ProductsPage from "./Pages/ProductsPage";
 import UsersPage from "./Pages/UsersPage";
 import SalesPage from "./Pages/SalesPage";
+import OrdersPage from "./Pages/OrdersPage";
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/users" element={<UsersPage />} />
           <Route path="/sales" element={<SalesPage />} />
+          <Route path="/orders" element={<OrdersPage />} />
 
-          <Route path="*" element={<div>404</div>} />
+          <Route path="*" element={<div >404</div>} />
         </Routes>
       </div>
     </>
