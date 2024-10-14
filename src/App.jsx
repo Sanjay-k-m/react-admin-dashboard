@@ -5,6 +5,7 @@ import ProductsPage from "./Pages/ProductsPage";
 import UsersPage from "./Pages/UsersPage";
 import SalesPage from "./Pages/SalesPage";
 import OrdersPage from "./Pages/OrdersPage";
+import AnalyticsPage from "./Pages/AnalyticsPage";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
           <Route path="/users" element={<UsersPage />} />
           <Route path="/sales" element={<SalesPage />} />
           <Route path="/orders" element={<OrdersPage />} />
+          <Route path="/analytics" element={<AnalyticsPage />} />
 
-          <Route path="*" element={<div >404</div>} />
+          <Route path="*" element={<div>404</div>} />
         </Routes>
       </div>
     </>
